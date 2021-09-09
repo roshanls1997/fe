@@ -1,0 +1,70 @@
+body {
+	background-image: url('./images/pattern-background-desktop.svg');
+	background-repeat: repeat-x;
+	background-color: hsl(225, 100%, 94%);
+	font-family: 'Red Hat Display', sans-serif;
+	font-size: 1rem;
+	padding: 1em;
+}
+p, h1, h2, h3 {
+	margin: 0;
+}
+img {
+	max-width: 100%;
+	border-radius: 30px 30px 0 0;
+}
+.container {
+	max-width: 420px;
+	margin: 0 auto;
+	background-color: white;
+	border-radius: 30px;
+}
+
+.order-content {
+	width: 80%;
+	margin: 0 auto;
+	padding: 1rem 0;
+	text-align: center;
+}
+.d-flex {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.order-plan {
+	background-color: hsl(225, 100%, 98%);
+	border-radius: 10px;
+	padding: 0.5em 1.2em;
+	margin: 1em 0;
+}
+
+.btn {
+	display: block;
+	text-decoration: none;
+	background-color: hsl(245, 75%, 52%);
+	color: white;
+	margin: 2em 0;
+	padding: 1em 1.25em;
+	border-radius: 1em;
+	box-shadow: 0px 20px 15px 0px hsl(225, 100%, 94%);
+}
+.btn:hover {
+	opacity: .8;
+}
+.order {
+	text-align: left;
+	margin: 1em 0;
+}
+.order-price {
+	padding-left: 10px;
+}
+
+.cancel {
+	background-color: white;
+	color: black;
+	box-shadow: none;
+}
+
+.order-desc {
+	margin: 1em 0;
+}
